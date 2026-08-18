@@ -7,7 +7,7 @@ print("Current Directory:", os.getcwd())
 print("\nContents of the Directory:")
 for item in os.listdir():
     print(item)
-
+ #hi
 
 import os
 
