@@ -1,3 +1,9 @@
-a = [45, 89, 523, 781]
+Username = input("Enter the username : ")
 
-print(sum(a))
+print(len(Username))
+
+if(len(Username)>=10):
+    print("Username valid")
+
+else:
+    print("Username invalid")
