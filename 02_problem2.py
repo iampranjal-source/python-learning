@@ -1,68 +1,28 @@
-# Assuming exam was of 100 marks.
-a1 = int(input("Enter marks of subject 1 : "))
-a2 = int(input("Enter marks of subject 2 : "))
-a3 = int(input("Enter marks of subject 3 : "))
-
-if((a1+a2+a3)/300*100 < 40):
-    print("Student has failed")
-
-elif(a1<33 and a2>33 and a3>33):   # 1
-    print("Students has failed")
-
-elif(a1<33 and a2<33 and a3>33):
-    print("Students has failed")
-
-elif(a1<33 and a2>33 and a3<33):
-    print("Students has failed")
-
-elif(a1<33 and a2<33 and a3<33):
-    print("Students has failed")
-
-elif(a1>33 and a2<33 and a3>33):     # 2
-    print("Students has failed")
-
-elif(a1>33 and a2<33 and a3<33):
-    print("Students has failed")
-
-elif(a1<33 and a2<33 and a3>33):
-    print("Students has failed")
-
-elif(a1<33 and a2<33 and a3<33):
-    print("Students has failed")
-
-elif(a1>33 and a2<33 and a3<33):    # 3
-    print("Students has failed")
-
-elif(a1>33 and a2>33 and a3<33):
-    print("Students has failed")
-
-elif(a1<33 and a2<33 and a3<33):
-    print("Students has failed")
-
-elif(a1<33 and a2>33 and a3<33):
-    print("Students has failed")
-
-else:
-    print("You have passed")
+l = ["Harry", "Soham", "sachin", "Sachin", "Rahul"]
 
 
-#MAJDOORI
+for name in l:
+    if(name.startswith("S")):
+        print(f"Good evening {name}")
+
+    elif(name.startswith("s")):
+        print(f"Good evening {name}")
 
 
 
 
-# Assuming exam was of 100 marks.
-a1 = int(input("Enter marks of subject 1 : "))
-a2 = int(input("Enter marks of subject 2 : "))
-a3 = int(input("Enter marks of subject 3 : "))
+l = ["Harry", "Soham", "sachin", "Sachin", "Rahul"]
 
-if((a1+a2+a3)/300*100 < 40):
-    print("Student has failed")
+for name in l:
+    if name.startswith(("S", "s")):
+        print(f"Good evening {name}")
 
-elif(a1<33 or a2<33 or a3<33):
-    print("Student has failed")
+# third line is very important kyunki isme do brackets use hue hain jahan outer bracket 
+# calls out the function and the inner bracket used for tuple.
 
-else:
-    print("You have passed")
+   
 
-#SAMAJHDAARI
+
+
+
+    
